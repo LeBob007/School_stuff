@@ -1,0 +1,31 @@
+ASSGN-2
+README
+
+TEAM NAME: Nachos Rule!
+
+Team Captain: Camille Rogers, carogers
+Team Member 1: Gyu Kim, gkim24
+Team Member 2: Wesley Wang, wwang
+Team Member 3: Robert Hu, ryhu
+
+The Makefile:
+	make copy: Copy changed files to correct position
+	make all: build and install new kernel
+	make benchmark: create benchmark executable file
+	make clean: remove executable file
+
+To switch between cases using sysctl:
+	For case 1: sudo sysctl kern.sched.foo=1
+	For case 2: sudo sysctl kern.sched.foo=2
+	For case 3: sudo sysctl kern.sched.foo=3
+	For case 4: sudo sysctl kern.sched.foo=4
+
+Most of design doc finished when I joined the group
+Worked on Case 2 portion of design doc
+
+My Contributions:
+	Implementing priority queue and combining priority with splatter for case 4
+	Testing cases and comparing results
+	Testing sysctl output
+	Debugging case 4 and sysctl implementation
+	General proofreading
